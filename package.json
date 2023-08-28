@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@wdio/cli": "^8.15.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.15.0",
+    "@wdio/mocha-framework": "^8.15.0",
+    "@wdio/spec-reporter": "^8.15.0"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
